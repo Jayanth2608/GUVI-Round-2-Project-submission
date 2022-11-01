@@ -1,0 +1,188 @@
+body{
+    background-image:url('../images/signup_bg.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    width:100%;
+    height:100vh;
+    overflow:auto;
+    
+}
+
+/*-----for border----*/
+.container{
+   font-family:Roboto,sans-serif;
+    background-color: rgba(0,0,0,0.5);
+    border-style: 1px solid grey;
+    margin: 0 auto;
+    text-align: center;
+    opacity: 0.8;
+    margin-top: 67px;
+    box-shadow: 2px 5px 5px 0px rgba(0,0,0,0.8);
+    max-width: 500px;
+    padding-top: 10px;
+    height: 363px;
+    margin-top: 166px;
+}
+/*--- for label of first and last name---*/
+.lastname{
+    margin-left: 1px;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: white;
+    margin-top: 10px;
+}
+.firstname{
+    margin-left: 40px;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: white;
+    margin-top: 5px;
+}
+
+#name{
+    margin-top: 2px;
+    margin-left: 13px;
+}
+     
+#signup_email{
+    margin-top: 18px;
+    margin-left: 14px;
+}
+
+#signup_password{
+    margin-top: 18px;
+    margin-left: 14px;
+}
+
+#confirm_password{
+    margin-top: 18px;
+    margin-left: 14px;
+}
+
+/*---for heading-----*/
+.heading{
+    text-decoration:bold;
+    text-align : center;
+    font-size:30px;
+    color:white;
+    padding-top:10px;
+    margin-top: -1.25px;
+}
+/*-------for email----------*/
+ /*------label----*/
+#email{
+     margin-top: 5px;
+     margin-left: 14px;
+}
+/*-----------for Password--------*/
+    /*-------label-----*/
+.mail{
+    margin-left: 73px;
+    font-family: sans-serif;
+    color: white;
+    font-size: 14px;
+    margin-top: 25px;
+}
+.pass{
+    color: white;
+    margin-top: 9px;
+    font-size: 14px;
+    font-family: sans-serif;
+    margin-left: 45px;
+    margin-top: 24px;
+}
+.confirmpass{
+    color: white;
+    margin-top: 9px;
+    font-size: 14px;
+    font-family: sans-serif;
+    margin-left: -11px;
+    margin-top: 26px;
+}
+#password{
+margin-top: 6px;
+margin-left: 14px;
+}
+/*------------for phone Number--------*/
+     /*----------label--------*/
+.pno{
+    font-size: 18px;
+    margin-left: -13px;
+    margin-top: 10px;
+    color: #ff9;
+   
+}	
+
+/*--------------for Gender---------------*/
+    /*--------------label---------*/
+.gender {
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-left: 28px;
+    margin-top: 8px;
+}
+
+    /*---------- for Input type--------*/
+.col-xs-4.male{
+    color: white;
+    font-size: 13px;
+    margin-top: 9px;
+    padding-bottom: 16px;
+}
+.col-xs-4.female {
+    color: white;
+    font-size: 13px;
+    margin-top: 9px;
+    padding-bottom: 16px;
+    padding-right: 95px;
+}	
+/*------------For submit button---------*/
+.sbutton{
+    color: white;
+    font-size: 20px;
+    border: 1px solid white;
+    background-color: #080808;
+    width: 32%;
+    margin-left: 41%;
+    margin-top: 16px;
+    box-shadow: 0px 2px 2px 0px white;
+  }
+  .login_btn{
+    color: black;
+    background-color: #FFC312;
+    width: 100px;
+    margin-top: 18px;
+    margin-left: 375;
+    }
+    
+    .login_btn:hover{
+    color: black;
+    background-color: white;
+    } 
+
+    .invalid-feedback{
+        color: red;
+        margin-bottom: -11px;
+        margin-top: -0.1px;
+    }
+
+    #name-div{
+        margin-top: -25px;
+        margin-left: 52px;
+    }
+
+    #email-div{
+        margin-top: -4px;
+        margin-left: 52px;
+    }
+
+    #password-div{
+        margin-top: -4px;
+        margin-left: 54px;
+    }
+
+    #confirm-password-div{
+        margin-top: -4px;
+        margin-left: 57px;
+    }

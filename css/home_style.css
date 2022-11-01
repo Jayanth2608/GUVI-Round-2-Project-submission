@@ -1,0 +1,35 @@
+#welcome{
+    color: rgb(211 212 212 / 59%);
+    align-items: center;
+    padding-top:225px;
+    text-align: center;
+    font-size: 75px;
+    margin-bottom: -37px;
+    margin-left: -3px;
+}
+
+#message{
+    color: rgb(211 212 212 / 59%);
+    align-items: center;
+    padding-top:-230px;
+    text-align: center;
+    font-size: 60px;
+}
+
+#logout{
+    color: rgb(211 212 212 / 59%);
+    font-size: 25px;
+    position: relative;
+    top: -489px;
+    right: -1349px;
+}
+
+body{
+    background-image:url('../images/welcome_bg.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    width:100%;
+    height:100vh;
+    overflow:auto;
+    
+}
